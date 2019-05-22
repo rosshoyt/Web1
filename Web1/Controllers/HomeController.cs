@@ -15,10 +15,10 @@ namespace Web1.Controllers
             {
                 PhoneCount = 10,
                 UserCount = 15,
-                LastAcessDate = DateTime.Now
+                LastAccessDate = DateTime.Now
             };
 
-            return View();
+            return View(myData);
         }
         
         public ActionResult FAQ()

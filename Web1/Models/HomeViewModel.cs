@@ -6,6 +6,5 @@ namespace Web1.Models
         public int PhoneCount;
         public int UserCount;
         public DateTime LastAccessDate;
-
     }
 }
